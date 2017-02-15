@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+
+}
+
+#carre {
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	animation: anime 3s;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-size: 52px;
+	font-family: arial;
+	text-shadow: 2px 2px 4px black;
+}
+ 
+#section {
+	margin: auto;
+	width: 50%;
+	background-color: red;
+	columns: 2;
+	overflow: wrap;
+	border:1px solid black;
+}
+
+@keyframes anime {
+	100% {width: 100%;}
+
+}

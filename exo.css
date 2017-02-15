@@ -1,0 +1,113 @@
+body {
+	margin: auto;
+	width: 80%;
+	background-color: pink;
+}
+
+section {
+	display: flex;
+
+}
+h1 {
+	width: 100%;
+	text-align: center;
+	background-color: green;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+img {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	columns: 2;
+}
+
+article {
+	display: flex;
+	border:2px solid black;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+article img {
+	width: 100%;
+}
+
+header section {
+	width: 100%
+	height:50px;
+	background-color: rgb(255,255,255);
+	margin: 0 0 100px;
+	border-radius: 5px;
+}
+
+header section div {
+	height: 50px;
+	width: 50px;
+	background-color: green;
+	animation: cool 10s infinite;
+	animation-direction: alternate;
+	border-radius: 5px;
+
+}
+
+@keyframes cool {
+0% {
+   transform:  translate(0px,0px)  rotate(360deg) ;
+ }
+
+ 100% {
+   transform:  translate(912px,0px)  rotate(0deg) ;
+ }
+
+
+ #head {
+	animation: cool 1s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+#presentation {
+	animation: cool 2s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+#diplome {
+	animation: cool 3s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+#xp {
+	animation: cool 4s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+#domaine {
+	animation: cool 5s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+#centre {
+	animation: cool 6s;
+	animation-direction: alternate;
+	border-radius: 5px;
+}
+
+
+
+
+
+@keyframes cool {
+
+0% {
+   transform:  translate(0px,0px)  rotate(360deg) ;
+ }
+
+ 100% {
+   transform:  translate(50px,0px)  rotate(0deg) ;
+ }
